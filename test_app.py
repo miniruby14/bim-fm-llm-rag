@@ -9,7 +9,7 @@ import pandas as pd
 import streamlit as st
 import psycopg2
 import chromadb
-from sentence_transformers import SentenceTransformer
+
 from openai import OpenAI  # Official SDK v1.x
 
 st.set_page_config(page_title="RAG Builder • MechanicalEquipment (with LLM)", layout="wide")
@@ -351,3 +351,4 @@ with tab_query:
                 st.error(f"Query error: {e}")
 
 st.caption("Tip: API key entered in the sidebar is only kept in memory for this session.")
+
