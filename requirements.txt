@@ -1,0 +1,9 @@
+streamlit
+openai
+chromadb
+tiktoken
+pandas
+numpy
+pypdf
+python-docx
+psycopg2-binary
