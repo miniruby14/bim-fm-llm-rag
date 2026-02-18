@@ -7,3 +7,6 @@ numpy
 pypdf
 python-docx
 psycopg2-binary
+torch
+transformers
+scikit-learn
